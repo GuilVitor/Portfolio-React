@@ -68,3 +68,198 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+<div className="btn"> 
+                <button className="btn1" onClick={cordefundo}></button>
+                <button className="btn2" onClick={cordefundo2}></button>
+
+                </div>
+
+
+                <div id="section1" className="section2">
+
+               <div className="Conteudo">
+               <div className="Modelo" id="h1">
+                   <h1>Modelo 3</h1>
+                   <h6> Encomende on-line para <a href=""> entrega sem toque  </a></h6>
+               </div>
+               <div className="button">
+                   <button className="pedido">PEDIDO PERSONALIZADO </button>
+                   <button className="inventario">INVENTÁRIO EXISTENTE </button>
+               </div>
+               </div>
+
+
+             </div>
+             {/* tela 1 */}
+
+
+             <div id="section1" className="section3">
+
+
+  
+  <div className="Conteudo2">
+  <div className="Modelo2">
+      <h1>Modelo Y</h1>
+      <h6> Encomende on-line para <a href=""> entrega sem toque  </a></h6>
+  </div>
+  <div className="button2">
+      <button className="pedido">PEDIDO PERSONALIZADO </button>
+      <button className="inventario">INVENTÁRIO EXISTENTE </button>
+  </div>
+  </div>
+
+
+</div>
+
+{/* proxima tela */}
+
+
+<div id="section1" className="section4">
+
+
+  
+<div className="Conteudo3">
+<div className="Modelo3">
+    <h1>Modelo S</h1>
+    <h6> Encomende on-line para <a href=""> entrega sem toque  </a></h6>
+</div>
+<div className="button3">
+    <button className="pedido3">PEDIDO PERSONALIZADO </button>
+    <button className="inventario3">INVENTÁRIO EXISTENTE </button>
+</div>
+</div>
+
+
+</div>
+
+{/* proxima tela */}
+
+
+<div id="section1" className="section5">
+
+
+  
+<div className="Conteudo4">
+<div className="Modelo4">
+    <h1>Modelo X</h1>
+    <h6> Encomende on-line para <a href=""> entrega sem toque  </a></h6>
+</div>
+<div className="button4">
+    <button className="pedido4">PEDIDO PERSONALIZADO </button>
+    <button className="inventario4">INVENTÁRIO EXISTENTE </button>
+</div>
+</div>
+
+
+</div>
+
+{/* proxima tela */}
+
+<div id="section1" className="section6">
+
+
+  
+<div className="Conteudo5">
+<div className="Modelo5">
+    <h1>Painéis solares </h1>
+    <h6> Painéis solares de menor custo na América</h6>
+</div>
+<div className="button5">
+    <button className="pedido5">PEÇA AGORA</button>
+    <button className="inventario5">SABER MAIS </button>
+</div>
+</div>
+
+
+</div>
+
+{/* proxima tela */}
+
+<div id="section1" className="section7">
+
+
+  
+<div className="Conteudo6">
+<div className="Modelo6">
+    <h1>Telhado Solar</h1>
+    <h6> Produza energia limpa do seu telhado</h6>
+</div>
+<div className="button6">
+    <button className="pedido6">PEÇA AGORA</button>
+    <button className="inventario6">SABER MAIS </button>
+</div>
+</div>
+
+
+</div>
+
+{/* proxima tela */}
+
+<div id="section1" className="section8">
+
+
+  
+<div className="Conteudo7">
+<div className="Modelo7">
+    <h1>Acessórios</h1>
+</div>
+<div className="button7">
+    <button className="pedido7">PEÇA AGORA</button>
+</div>
+
+<p> <a href=""> Tesla © 2022 </a> <a href="">Privacidade e Jurídico </a> <a href="">
+Recall de veículos
+ </a> <a href="">Contato </a> <a href="">Carreiras </a> <a href="">Notícia </a> <a href="">Envolver</a> <a href="">
+Localizações</a>  </p>
+</div>
+
+
+</div>
+
+
+
+
+
+ {/* final */}
+        </div>
+
+
+
+    )
+}
+
+export default mostrar;
+
+// parte de JS
+
+function cordefundo(obj){
+
+    const btn = document.getElementById("menu")
+    btn.addEventListener("click", e => {
+  
+    btn.style.background="#fff" 
+    btn.style.position="fixed"
+    btn.style.width="100%"
+    })
+
+  
+}
+
+
+function cordefundo2(obj){
+
+
+    const btn = document.getElementById("menu")
+   btn.addEventListener("click", e => {
+
+
+    btn.style.background="transparent" 
+
+   })
