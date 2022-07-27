@@ -3,7 +3,7 @@
 function CodigoHtml3(){
     return(
      <div id='repositorio3'> 
-    <a href='https://github.com/GuilVitor/Relogio-Digital'><button>CODIGO</button></a>
+    <a href='https://github.com/GuilVitor17/Relogio'><button>CODIGO</button></a>
           <div id='codigohtml' className="codigo">
 
               <div className="Conteudo">

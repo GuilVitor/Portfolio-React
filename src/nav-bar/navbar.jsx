@@ -13,6 +13,8 @@
  import RFnoticias from '../caixas/Rf-Noticias/rf-Noticias'
  import CobraGame from '../caixas/Jogo-da-cobra/jogo-cobra'
  import Verificador from '../caixas/Verificador/Verificador'
+ import Ebook from '../caixas/ebook/ebook'
+ import PipApi from '../caixas/PipApi/PipApi'
 
  function navbar(){
 
@@ -45,6 +47,10 @@
     <Link className='Mobile' to='/Sistema-Financeiro' > <li>SISTEMA FINANCEIRO</li></Link> 
     <Link className='Mobile' to='/Cobra-Game' > <li>HORA DO DIA</li></Link> 
     <Link className='Mobile' to='/Rf-Noticias' > <li>RF NOTICIAS</li></Link> 
+    <Link className='Mobile' to='/ebook' > <li>E-BOOK</li></Link> 
+    <Link className='Mobile' to='/pipApi' > <li>API-PYTHON</li></Link> 
+
+
     <li className='abrirmenu' onClick={abrirMenu}>MENU</li>
     </div>
     </ul>
@@ -84,6 +90,8 @@
   <Route path='/Sistema-Financeiro' element={<Sistmfinanceiro />} />
   <Route path='/Cobra-Game' element={<CobraGame />} />
   <Route path='/Rf-Noticias' element={<RFnoticias />} />
+  <Route path='/ebook' element={<Ebook />} />
+  <Route path='/pipApi' element={<PipApi />} />
 
 </Routes>
 

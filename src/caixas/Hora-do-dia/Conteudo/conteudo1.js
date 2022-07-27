@@ -31,7 +31,7 @@ function conteudo1(){
        <div className='imagem-redeSocial'>
 
       <div className='imagen1'> <div className='github'></div> </div>
-  <a href='https://github.com/GuilVitor'><div className='imagen2'> <div className='whats'></div> </div></a> 
+  <a href='https://github.com/GuilVitor17'><div className='imagen2'> <div className='whats'></div> </div></a> 
       <div className='imagen3'> <div className='likedin'></div> </div>
       
 

@@ -16,6 +16,8 @@ function Menulateral(){
             <Link to='/Sistema-Financeiro' > <li>SISTEMA FINANCEIRO</li></Link> 
             <Link to='/Cobra-Game' > <li>HORA DO DIA</li></Link> 
             <Link to='/Rf-Noticias' > <li>RF NOTICIAS</li></Link> 
+            <Link to='/ebook' > <li>E-BOOK</li></Link> 
+            <Link to='/pipApi' > <li>API PYTHON</li></Link> 
             
            </ul>
 

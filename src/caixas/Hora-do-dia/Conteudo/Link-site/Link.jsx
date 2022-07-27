@@ -20,7 +20,7 @@ function LinkSite(){
        <h5> <b>EMAIL</b> : guilvitor05@gmail.com</h5>
 
 
-        <a href=" https://www.linkedin.com/in/guil-vitor-809722223/">  <div className='logo-likedin'></div></a>
+        <a href="https://www.linkedin.com/in/guil-vitor-27409323b/">  <div className='logo-likedin'></div></a>
        
     </div>
 

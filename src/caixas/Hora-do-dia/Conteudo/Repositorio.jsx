@@ -6,7 +6,7 @@ function Repositorio(){
     return(
      <div className='repositorioLink'> 
      <button onClick={Abrir}>SOBRE MIM</button>
-    <a href="https://drive.google.com/file/d/18czu9lT8m33RcUcI6SXpaezyYQdQ2RpT/view?usp=sharing"> <button id='btn-curriculo'>DOWNLOAD CV</button></a>
+    <a href="https://drive.google.com/file/d/1mSq-7CtUiDs91TI_ttqYwwLn_LJ8asRs/view?usp=sharing"> <button id='btn-curriculo'>DOWNLOAD CV</button></a>
           <div id='codigo' className="codigo">
               <button onClick={Fechar}>X</button>
 

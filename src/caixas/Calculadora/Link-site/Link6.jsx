@@ -3,7 +3,7 @@ import './Link6.css'
 function LinkSite6(){
     return(
      <div className='repositorioSite'> 
-    <a href='https://guilvitor.github.io/Calculladora/'><button>SITE</button></a>
+    <a href='https://guilvitor17.github.io/calculadorra/'><button>SITE</button></a>
           <div id='codigohtml' className="codigo6">
 
               <div className="Conteudo">
